@@ -1,0 +1,86 @@
+/* styling the footer container and making it red */
+.footer{
+    background-color: red;
+    color: white;
+    margin-top:20px;
+    padding: 0px 60px;
+}
+
+/* making children of footer-child-one apper net to each othe */
+.footer-child-one{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* styling all the h5 on the footer */
+.footer h5{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/* styling the footer list */
+.footer ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
+/* giving space to the <li> on the footer */
+.footer li{
+    padding: 5px 0px;
+}
+
+/* making footer-child-two childern appear next to each othe */
+.footer-child-two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* styling the copyright content */
+.social-donors-rights{
+    display: flex;
+    align-items: center;
+    width: 75%;
+    justify-content: space-between;
+}
+
+/* ging to-our-news a margin */
+.to-our-news{
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+
+/* styling the footer email part */
+.enter-your-email{
+    background-color: rgb(218, 207, 207);
+    border: none;
+    padding: 15px;
+    width: 190px;
+}
+
+/* styling the subscribe button */
+.subscribe-button{
+    margin-top: 30px;
+    background-color:   rgba(75, 0, 0, 0.911);
+    border: none;
+    height: 45px;
+    width: 225px;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+}
+
+/* changing the font of terms-of-use smaller */
+.terms-of-use{
+    font-size: smaller;
+}
+
+/* styling the social media containers */
+.socials{
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+    align-items: center;
+
+}

@@ -1,0 +1,33 @@
+.navigation-container{
+    display: flex;
+    height: 75px;
+    justify-content: center;
+    background-color: rgba(255, 0, 0, 0.336);
+    
+}
+
+.navigation{
+    width: 700px;
+    display: flex;
+    background-color: red;
+    justify-content: space-between;
+    padding: 10px 25px;
+    color: white;
+    height: fit-content;
+    z-index: 100;
+}
+
+.navigation a{
+    color: white;
+}
+
+.part-one{
+    text-align: center;
+    cursor: pointer;
+    color: white;
+}
+
+.home-img{
+    width: 45px;
+    height: 45px;
+}

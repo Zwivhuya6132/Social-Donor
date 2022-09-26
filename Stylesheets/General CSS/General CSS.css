@@ -1,0 +1,23 @@
+/* ging the body a default style */
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* making all anchor tags not to have a text decoration */
+a{
+    text-decoration: none;
+}
+
+/* making all the buttons cursor pointer */
+button{
+    cursor: pointer;
+}
+
+/* making all thye buttons hover */
+button:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+}

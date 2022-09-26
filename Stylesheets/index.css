@@ -1,0 +1,130 @@
+.home-text{
+    color: black;
+}
+
+/*--------------------------------------------------------------------- THIS IS THE SECOND SECTION STYLES -------------------------------------------*/
+
+
+#section-one{
+    background-color: rgba(255, 0, 0, 0.171);
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    align-items: center;
+}
+
+.Rectangle-eight{
+    margin-top: 85px;
+    margin-right: 50px;
+}
+
+.rectangle-eight-img{
+    border-radius: 50%;
+}
+
+.Stats-container{
+    margin-top: 80px;
+    width: 55%;
+}
+
+.section-one-icons{
+    display: flex;
+    margin-top: 55px;
+}
+
+.section-one-icons-info{
+    width: 20%;
+    margin-right: 95px;
+}
+
+/*--------------------------------------------------------------------- THIS IS THE SECOND SECTION STYLES -------------------------------------------*/
+
+.section-two-container{
+    display: flex;
+    justify-content: center;
+}
+
+.dd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 500px; */
+}
+
+
+.blood-drive{
+    color: red;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+.section-two-subtittle{
+    width: 70%;
+    /* margin: auto; */
+}
+
+.section-two-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 50px;
+    margin-left: 65px;
+}
+
+.section-two-grid img{
+    width: 250px;
+    height:250px;
+}
+
+/*--------------------------------------------------------------------- THIS IS THE THIRD SECTION STYLES -------------------------------------------*/
+
+#section-three{
+    display: flex;
+    background-color: rgba(255, 0, 0, 0.171);
+    justify-content: center;
+    padding: 45px;
+}
+
+.iron-picture{
+    margin-right: 50px;
+}
+
+.iron-things{
+    width: 30%;
+}
+
+.iron-btn{
+    padding: 10px 35px;
+    background-color: red;
+    border:none;
+    border-radius: 25px;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+/*--------------------------------------------------------------------- THIS IS THE FOURTH SECTION STYLES -------------------------------------------*/
+
+#section-four h4{
+    font-size: 70px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.336);
+    padding: 25px;
+    margin-top: 35px;
+    margin-bottom: 45px;
+
+}
+
+.section-four-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 110px;
+    row-gap: 80px;
+    margin-top: 0px;
+    /* border-bottom: 3px solid grey; */
+}
+
+hr{
+    border: 2px solid rgba(255, 0, 0, 0.171);
+    margin: 10px 50px;
+}

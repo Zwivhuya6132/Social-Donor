@@ -1,0 +1,49 @@
+main{
+    padding: 35px;
+}
+
+.dashboard-text{
+    color: black;
+}
+
+h1{
+    text-align: center;
+    margin-top: 55px;
+}
+
+table,
+tr,
+td,
+th{
+    margin-top: 0px;
+    border: 1px  solid rgba(255, 0, 0);
+    border-collapse: collapse;
+    background-color: rgb(249, 88, 88);
+    height: 60px;
+    padding: 8px;
+}
+
+table{
+    width: 100%;
+    height: 50px;
+    margin: 10px auto 0px auto;
+}
+
+td img{
+    width:55px;
+    height: 55px;
+    position: absolute;
+    left: 12px;
+    top:10px;
+}
+
+.td{
+    position: relative;
+    padding-left: 80px;
+}
+
+.zwivhuya{
+    width: 55px;
+    height: 55px;
+    border-radius: 27.5px;
+}

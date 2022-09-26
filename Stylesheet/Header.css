@@ -1,0 +1,64 @@
+.logo-container{
+    display: flex;
+    padding:2px 25px;
+}
+
+.container{
+    display:flex;
+    flex: 1;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.search-bar-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top:5px ;
+    color: red;
+
+}
+
+.search-bar{
+    width: 350px;
+    border-radius: 175px;
+    padding: 11px 35px;
+    border: 2.5px solid red;
+    margin-left:300px;
+    color: red;
+}
+
+.search-bar::placeholder{
+    color: red;
+    font-size: 20px;
+}
+
+.log-in{
+    background-color: red;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 15px;
+    position: relative;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+   margin-left: 380px;
+   width: 150px;
+    
+}
+.first-nav-list{
+    display:flex;
+    justify-content: space-around;
+    padding-right: 20px;
+    margin-left: -90px;
+    
+}
+
+.first-list{
+    list-style: none;
+    color: rgb(229, 15, 15);
+    font-weight: 700;
+}
+
+.SE

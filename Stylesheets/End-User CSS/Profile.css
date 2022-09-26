@@ -1,0 +1,70 @@
+.profile-text{
+    color: black;
+}
+
+.first-section{
+    display: flex;
+    color: white;
+    background-color: red;
+    margin-top: 65px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.profile-picture{
+    width: 100px;
+    height: 100px;
+    margin-right: 30px;
+
+}
+
+.identity{
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-two{
+    display: flex;
+    justify-content: center;
+}
+
+.profile-form{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    background-color: rgba(255, 0, 0, 0.336);
+    border: 2px solid red;
+    border-radius: 25px;
+    align-items: center;
+    margin: 35px;
+}
+
+.labels input{
+    width: 180%;
+    padding: 15px;
+    border-radius: 25px;
+    border: 2px solid red;
+}
+
+.label-container{
+
+    display: flex;
+    width: 400px;
+    margin: 5px;
+    /* background-color: aqua; */
+}
+
+.updateBtn{
+    background-color: red;
+    border: none;
+    border-radius: 25px ;
+    padding: 15px 40px;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    margin-top: 25px;
+
+}

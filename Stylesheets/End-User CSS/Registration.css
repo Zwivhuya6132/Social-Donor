@@ -1,0 +1,291 @@
+.registration-text{
+  color: black;
+}
+
+.section-one{
+  margin: 65px 65px 0px 65px ;
+  position: relative;
+}
+
+.slideshow-container{
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.slideshow-container img{
+  width: 100%;
+  height: 400px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  /* position: absolute; */
+  text-align: center;  
+  transition: background-color 0.6s ease;
+}
+
+.dot-holder{
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+/*----------------------------------------------------------------------- THIS IS A FORM SECTION STYLES------------------------------- */
+.toggle{
+  position:relative;
+}
+
+#toggleBtn{
+  position: absolute;
+  right: 6px;
+  top:3.5px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#toggleBtn::before{
+  content: '\f06e';
+  font-family: fontAwesome;
+}
+
+#toggleBtn.hide::before{
+  content: '\f070';
+  font-family: fontAwesome;
+}
+
+
+
+.passwordStrength{
+  padding: 10px 0;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-radius: 8px;
+  background-color: rgba(255, 0, 0, 0.062);
+}
+
+.passwordStrength li{
+  list-style-type: none;
+  transition: 0.5s;
+
+}
+
+.passwordStrength li.valid{
+  color: rgba(0, 0, 0, 0.664)
+}
+
+.passwordStrength li.valid::before{
+  content: '\f00c';
+  font-family: fontAwesome;
+  color: #0f0;
+}
+
+.passwordStrength li::before{
+  content: '\f192';
+  width: 20px;
+  height: 10px;
+  font-family: fontAwesome;
+  display: inline-flex;
+}
+
+.errorMess{
+  color: red;
+  /* visibility: hidden; */
+}
+.section-two{
+  display: flex;
+  justify-content: center;
+}
+
+.registration-form{
+  background-color: rgba(255, 0, 0, 0.336);
+  border: 2px solid red;
+  width: 55%;
+  min-width: 600px;
+  padding: 15px 0;
+  border-radius: 25px;
+  position: relative;
+}
+
+.registration-form h1{
+  text-align: center;
+}
+
+h6{
+  position: absolute;
+  right: 3%;
+  bottom: 243px;
+  font-size: 0.6em;
+}
+
+em{
+  color: black;
+  font-weight: bolder;
+}
+
+.personal-details h3{
+  margin: 15px 35px ;
+  padding-bottom: 0;
+}
+
+.names{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.first-name,
+.last-name,
+.email-selection{
+  width: 44.5%;
+  margin-bottom: 15px;
+}
+
+.single-input-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.names input{
+  width: 100%;
+  border-radius: 25px;
+  border: 2px solid rgb(87, 86, 86);
+  padding: 6px;
+}
+
+.id-number,
+.street{
+  margin-bottom: 15px;
+  width: 92.53%;
+  
+}
+
+.id-number input,
+.street input{
+  width: 100%;
+  padding: 7px;
+  border-radius: 25px;
+  border: 2px solid rgb(87, 86, 86);
+  display:block;
+}
+
+.date-of-birth,
+.type,
+.city{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+
+.selection{
+  width: 28%;
+  margin-left: 20px;
+}
+
+.date-of-birth select,
+.city input,
+.type select{
+  width: 100%;
+  border-radius: 25px;
+  border: 2px solid rgb(87, 86, 86);
+  padding: 7px;
+}
+
+.city-selection{
+  width: 25%;
+}
+
+.email{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+
+.email input{
+  border-radius: 25px;
+  border: 2px solid rgb(87, 86, 86);
+  padding: 7px;
+  width: 100%;
+}
+
+.submit{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px ;
+}
+
+.submit button,
+.login-btn button{
+  padding: 10px 25px;
+  color: white;
+  background-color: red;
+  font-weight: bolder;
+  font-size: 20px;
+  border-radius:25px;
+  border: none;
+
+}
+
+.success input{
+  border: 2px solid black;
+}
+
+.error input{
+  border: 2px solid rgb(228, 28, 22);
+}
+
+.errorMessa{
+  margin: 10px 0;
+  display: block;
+  /* color:red; */
+  border-radius: 5px ;
+  font-size: 20px;
+}

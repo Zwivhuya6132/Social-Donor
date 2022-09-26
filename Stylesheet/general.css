@@ -1,0 +1,9 @@
+body{
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    border-bottom: 5px solid red;
+    padding-bottom: 18px;
+}

@@ -1,0 +1,92 @@
+
+
+.registration-text{
+    color: white;
+}
+
+.login-text{
+    color: black;
+}
+
+em{
+    font-weight: bolder;
+    color: black;
+}
+
+.login-form{
+    background-color: rgba(255, 0, 0, 0.336);
+    border: 2px solid red;
+    width: 35%;
+    /* height: 350px; */
+    min-width: 370px;
+    padding: 15px;
+    border-radius: 25px;
+    position: relative;
+}
+
+.login-form h1{
+    text-align: center;
+}
+
+.login-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-holder{
+    width: 75%;
+}
+
+.login-details input{
+  width: 100%;
+  border-radius: 25px;
+  border: 2px solid red;
+  padding: 7px;
+  margin: 15px 0;
+}
+
+.register{
+    position: absolute;
+    bottom: 60px;
+    right: 13%;
+    font-size: 0.7rem;
+}
+
+.login-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.login-btn a {
+    color: white;
+}
+
+
+.toggle{
+    position:relative;
+  }
+  
+  #toggleBtn{
+    position: absolute;
+    right: 6px;
+    top:41px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #toggleBtn::before{
+    content: '\f06e';
+    font-family: fontAwesome;
+  }
+  
+  #toggleBtn.hide::before{
+    content: '\f070';
+    font-family: fontAwesome;
+  }

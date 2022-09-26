@@ -1,0 +1,77 @@
+.section-one{
+    display:flex ;
+    background-color: red;
+    margin-top: 65px;
+    flex-direction: column;
+}
+
+.image-one{
+    display: flex;
+    margin-left: 450px;
+}
+
+.heading-one{
+    display: flex;
+    margin-left: 50px;
+}
+
+.potal{
+    display: flex;
+    justify-content: end;
+    margin-right: 290px;
+
+}
+
+.section-two{
+    display: flex;
+    background-color:red;
+    padding-top: 25px;
+}
+
+.iron-image-div{
+    width: 100%;
+}
+
+.iron-image{
+    width: 100%;
+}
+
+.section-three{
+    display: flex;
+    background-color: red;
+    justify-content: center;
+    /* padding-top: 45px; */
+    height: 350px;
+
+}
+
+.world-donation-div{
+    display: flex;
+    align-items: center;
+}
+
+.section-four{
+    display: flex;
+    justify-content: space-around;
+}
+
+.registration-div{
+    display: flex;
+    width:50%;
+    /* background-color: aqua; */
+    justify-content: center;
+    color: red;
+}
+
+.log-in-div{
+
+    width: 50%;
+    display: flex;
+    background-color: rgb(162, 159, 159);
+    justify-content: center;
+    border-bottom: 15px solid red;
+}
+
+.registration-tncs{
+    display: flex;
+}
